@@ -1,9 +1,12 @@
 package _02_static_smiley_blues;
 
+import javax.swing.JFrame;
+
 public class SmileyBlues {
 	void start() {
 		// 1. Make a new JFrame and set it to be visible
-
+		JFrame Crackers= new JFrame();
+		Crackers.setVisible(true);
 		// 2. Set your frame's default close operation to JFrame.EXIT_ON_CLOSE
 
 		// 3. Make a new JPanel
