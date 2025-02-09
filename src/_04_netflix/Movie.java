@@ -10,7 +10,6 @@ public class Movie implements Comparable<Movie> {
 
 	private String title;
 	private int stars;
-
 	/**
 	 * Constructor for the movie
 	 * 
@@ -20,6 +19,7 @@ public class Movie implements Comparable<Movie> {
 	public Movie(String title, int stars) {
 		this.title = title;
 		this.stars = stars;
+
 	}
 
 	public String getTitle() {

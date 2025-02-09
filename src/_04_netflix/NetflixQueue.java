@@ -10,7 +10,6 @@ import java.util.Collections;
 public class NetflixQueue {
 
 	ArrayList<Movie> movies = new ArrayList<Movie>();
-
 	/**
 	 * Sorts the Netflix Queue then returns the best movie
 	 * 
@@ -21,6 +20,7 @@ public class NetflixQueue {
 		return movies.get(0);
 	}
 
+
 	/**
 	 * adds a movie to the Netflix Queue
 	 * 
@@ -29,7 +29,6 @@ public class NetflixQueue {
 	public void addMovie(Movie movie) {
 		movies.add(movie);
 	}
-
 	/**
 	 * Gets a movie based on it's position in the queue
 	 * 

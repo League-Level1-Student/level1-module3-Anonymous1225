@@ -26,7 +26,6 @@ import game_tools.Sound;
  */
 public class CowTimer {
     private int seconds;
-
     public void setTime(int seconds) {
         this.seconds = seconds;
         System.out.println("Cow time set to " + this.seconds + " seconds.");
